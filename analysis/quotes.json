@@ -1,0 +1,493 @@
+{
+  "DS41-C5": {
+    "level": 2,
+    "confidence": "high",
+    "boundary_rule": "R2a",
+    "source_doc": "arXiv:2609.19969v1",
+    "source_type": "tech_report",
+    "locator": "Sec 5.1.1",
+    "access_date": "2026-10-16",
+    "quotes": [
+      {
+        "text": "we encourage internal employees and external partners to incorporate our latest model into their routine workflows",
+        "locator": "Sec 5.1.1",
+        "fidelity": "verbatim"
+      },
+      {
+        "text": "we collect negative feedback and model failure cases submitted by internal employees at scale",
+        "locator": "Sec 5.1.1",
+        "fidelity": "verbatim"
+      }
+    ],
+    "note": "Deployment-side interaction data + feedback returned from employee/partner routine workflows -> failure replay -> targeted RL. No anti-gaming multi-objective weighting, no quantification -> R2a cap at 2."
+  },
+  "DS41-C6": {
+    "level": 2,
+    "confidence": "high",
+    "boundary_rule": "R2a",
+    "source_doc": "arXiv:2609.19969v1",
+    "source_type": "tech_report",
+    "locator": "Sec 5.1.1",
+    "access_date": "2026-10-16",
+    "quotes": [
+      {
+        "text": "we collect negative feedback and model failure cases submitted by internal employees at scale",
+        "locator": "Sec 5.1.1",
+        "fidelity": "verbatim"
+      },
+      {
+        "text": "a large set of mocked tools that reproduce the interfaces and behaviors of real-world tools and systems",
+        "locator": "Sec 5.1.1",
+        "fidelity": "verbatim"
+      },
+      {
+        "text": "systematic replay of failures and targeted reinforcement learning against observed model weaknesses",
+        "locator": "Sec 5.1.1",
+        "fidelity": "verbatim"
+      }
+    ],
+    "note": "02 Sec 3.2 frozen calibration anchor (C6=2). DSec numbers (millions of concurrent sandboxes; 1,000 -> 2,500+ live containers per node, Sec 5.1.3) quantify the environment platform, not the submission channel, so the level-3 'mechanism + scale' test is not met."
+  },
+  "DS41-C7": {
+    "level": 1,
+    "confidence": "high",
+    "boundary_rule": "",
+    "source_doc": "arXiv:2609.19969v1",
+    "source_type": "tech_report",
+    "locator": "Sec 5.1.1",
+    "access_date": "2026-10-16",
+    "quotes": [
+      {
+        "text": "systematic replay of failures and targeted reinforcement learning against observed model weaknesses",
+        "locator": "Sec 5.1.1",
+        "fidelity": "verbatim"
+      }
+    ],
+    "note": "Failure data demonstrably enters training (replay + targeted RL), but no error-type / root-cause / fix packaging structure is disclosed -> below the C7 level-2 threshold frozen in 01 Sec 6."
+  },
+  "DS41-C11": {
+    "level": 1,
+    "confidence": "high",
+    "boundary_rule": "",
+    "source_doc": "arXiv:2609.19969v1",
+    "source_type": "tech_report",
+    "locator": "Sec 5.1.1",
+    "access_date": "2026-10-16",
+    "quotes": [
+      {
+        "text": "systematic replay of failures and targeted reinforcement learning against observed model weaknesses",
+        "locator": "Sec 5.1.1",
+        "fidelity": "verbatim"
+      }
+    ],
+    "note": "Single-channel fragment: replay then offline targeted RL (R2 Sec 7 characterization). No three-tier division, no staleness/drift metric. Borderline 0/1 resolved as 1; cell included in the pre-registered recode sample."
+  },
+  "DS41-C14": {
+    "level": 1,
+    "confidence": "high",
+    "boundary_rule": "",
+    "source_doc": "arXiv:2609.19969v1",
+    "source_type": "tech_report",
+    "locator": "Sec 5.1.1",
+    "access_date": "2026-10-16",
+    "quotes": [
+      {
+        "text": "participation is voluntary",
+        "locator": "Sec 5.1.1",
+        "fidelity": "near-verbatim (fetch-reported)"
+      }
+    ],
+    "note": "Voluntary participation at the collection point = consent phenomenon acknowledged; no opt-out / revocation / licensing framework."
+  },
+  "MIMO26-C7": {
+    "level": 1,
+    "confidence": "high",
+    "boundary_rule": "",
+    "source_doc": "arXiv:2610.11959v1",
+    "source_type": "tech_report",
+    "locator": "Sec 4.2.6 (Mid-Training Alignment Data)",
+    "access_date": "2026-10-16",
+    "quotes": [
+      {
+        "text": "The revised reasoning keeps the original error recognizable and makes the correction explicit.",
+        "locator": "Sec 4.2.6",
+        "fidelity": "verbatim"
+      },
+      {
+        "text": "adding these examples improved the model's alignment",
+        "locator": "Sec 4.2.6",
+        "fidelity": "verbatim"
+      }
+    ],
+    "note": "Two-segment reflection-revision data (error recognizable + explicit correction) used in mid-training alignment. Root-cause segment absent -> below the three-part level-2 threshold (01 Sec 6). Nearest disclosed industry practice to C7 (LEMA-equivalent two-part)."
+  },
+  "MIMO26-C8": {
+    "level": 3,
+    "confidence": "high",
+    "boundary_rule": "",
+    "source_doc": "arXiv:2610.11959v1",
+    "source_type": "tech_report",
+    "locator": "Sec 4.2.6 / Sec 4.3.2 / Fig 6",
+    "access_date": "2026-10-16",
+    "quotes": [
+      {
+        "text": "A dedicated hack agent then probes the prepared environments for remaining leaks and exploitable weaknesses",
+        "locator": "Sec 4.2.6",
+        "fidelity": "verbatim"
+      },
+      {
+        "text": "We regularly audit agent trajectories offline for reward hacking throughout training",
+        "locator": "Sec 4.2.6",
+        "fidelity": "verbatim"
+      },
+      {
+        "text": "the logged confirmed-hack share remains below 2% throughout the whole training process",
+        "locator": "Sec 4.2.6 (Fig 6)",
+        "fidelity": "near-verbatim (spliced)"
+      },
+      {
+        "text": "We retain Git history up to and including the base commit, removing later commits",
+        "locator": "Sec 4.2.6",
+        "fidelity": "verbatim"
+      },
+      {
+        "text": "enforce container-level network isolation",
+        "locator": "Sec 4.2.6",
+        "fidelity": "verbatim"
+      }
+    ],
+    "note": "Only level-3 cell in the matrix: mechanism (three-layer defense: hack-agent red-teaming, periodic offline trajectory audit with reward zeroing, groupwise grader) + quantification (<2% throughout training) + independent third-party audit corroboration (Vals.ai). Confirms the 02 Sec 3.2 calibration candidate."
+  },
+  "MIMO26-C13": {
+    "level": 1,
+    "confidence": "medium",
+    "boundary_rule": "",
+    "source_doc": "vals.ai/blogs/mimo-reward-hacking",
+    "source_type": "official_blog",
+    "locator": "vals.ai blog, accessed 2026-10-16",
+    "access_date": "2026-10-16",
+    "quotes": [
+      {
+        "text": "We audited all 2,698 coding tasks",
+        "locator": "vals.ai blog",
+        "fidelity": "verbatim"
+      },
+      {
+        "text": "in 1,795 of them (67%), the fix commit survives as unreachable objects",
+        "locator": "vals.ai blog",
+        "fidelity": "verbatim"
+      }
+    ],
+    "note": "Independent (non-commissioned) third-party audit of MiMo RL environments exists as a one-off instance; no institutionalized verifier arrangement disclosed by MiMo itself. Evidence is third-party-published -> confidence medium."
+  },
+  "GLM5-C7": {
+    "level": 1,
+    "confidence": "high",
+    "boundary_rule": "",
+    "source_doc": "arXiv:2602.15763 (HTML)",
+    "source_type": "tech_report",
+    "locator": "Sec 3.1 (SFT)",
+    "access_date": "2026-10-16",
+    "quotes": [
+      {
+        "text": "Erroneous segments within trajectories are retained but masked out in the loss function",
+        "locator": "Sec 3.1",
+        "fidelity": "verbatim"
+      },
+      {
+        "text": "allowing the model to learn error correction behaviors without reinforcing incorrect actions.",
+        "locator": "Sec 3.1",
+        "fidelity": "verbatim"
+      }
+    ],
+    "note": "Error-aware training (error segments retained + masked in loss). No error-type taxonomy, no root cause, no packaged correction record -> below level-2 threshold."
+  },
+  "GLM5-C8": {
+    "level": 2,
+    "confidence": "high",
+    "boundary_rule": "R2a",
+    "source_doc": "arXiv:2602.15763 (HTML)",
+    "source_type": "tech_report",
+    "locator": "Sec 4.1.2",
+    "access_date": "2026-10-16",
+    "quotes": [
+      {
+        "text": "coding-agent sandboxes can be inherently unstable and may fail for reasons unrelated to the model",
+        "locator": "Sec 4.1.2",
+        "fidelity": "verbatim"
+      },
+      {
+        "text": "we record the failure reason for each sample and exclude samples that fail due to environment collapse.",
+        "locator": "Sec 4.1.2",
+        "fidelity": "verbatim"
+      }
+    ],
+    "note": "Attribution-based triage: failure reason recorded per sample; environment-collapse failures excluded from training. Exactly the C8 model-vs-environment attribution分流 mechanism. No quantification -> R2a cap at 2."
+  },
+  "KIMIK3-C3": {
+    "level": 1,
+    "confidence": "high",
+    "boundary_rule": "R3a",
+    "source_doc": "arXiv:2607.24653 (HTML)",
+    "source_type": "tech_report",
+    "locator": "Sec 4.2.2",
+    "access_date": "2026-10-16",
+    "quotes": [
+      {
+        "text": "Retrieval guided by fine-grained concepts surfaces specialized and underrepresented knowledge",
+        "locator": "Sec 4.2.2",
+        "fidelity": "verbatim"
+      }
+    ],
+    "note": "Near construct: knowledge-level underrepresentation surfacing in RL task synthesis, explicitly tied to a data practice -> 1 with R3a note. Not typed (success/failure x expertise) coverage; strict typed-coverage practice remains 0/8."
+  },
+  "KIMIK3-C8": {
+    "level": 2,
+    "confidence": "high",
+    "boundary_rule": "R2a",
+    "source_doc": "arXiv:2607.24653 (HTML)",
+    "source_type": "tech_report",
+    "locator": "Sec 4.2.4 (Kernel Optimization Tasks)",
+    "access_date": "2026-10-16",
+    "quotes": [
+      {
+        "text": "we develop a hacking-detection system that penalizes reward-hacking strategies such as CUDA graph replay, input caching",
+        "locator": "Sec 4.2.4",
+        "fidelity": "verbatim"
+      },
+      {
+        "text": "we continuously extend it with new safeguards as new hacking strategies are observed during Kimi K3's development.",
+        "locator": "Sec 4.2.4",
+        "fidelity": "verbatim"
+      }
+    ],
+    "note": "Pseudo-failure (reward-hacking) discrimination mechanism with continuous extension; no quantified hacking share -> R2a cap at 2."
+  },
+  "QWNCN-C3": {
+    "level": 1,
+    "confidence": "high",
+    "boundary_rule": "R3a",
+    "source_doc": "arXiv:2603.00729 (HTML)",
+    "source_type": "tech_report",
+    "locator": "Sec 4.2.3",
+    "access_date": "2026-10-16",
+    "quotes": [
+      {
+        "text": "scaling RL task diversity leads to consistent improvements across multiple coding sub-capabilities.",
+        "locator": "Sec 4.2.3",
+        "fidelity": "verbatim"
+      }
+    ],
+    "note": "Near construct: task-diversity awareness in RL task synthesis, tied to a data practice -> 1 with R3a note. Not typed coverage-driven collection."
+  },
+  "QWNCN-C7": {
+    "level": 1,
+    "confidence": "high",
+    "boundary_rule": "",
+    "source_doc": "arXiv:2603.00729 (HTML)",
+    "source_type": "tech_report",
+    "locator": "Sec 4.1 (Filtering with Verification)",
+    "access_date": "2026-10-16",
+    "quotes": [
+      {
+        "text": "It evaluates system feedback signals, such as compiler outputs, runtime errors, and environment state changes,",
+        "locator": "Sec 4.1",
+        "fidelity": "verbatim"
+      },
+      {
+        "text": "This closed-loop verification process allows us to filter hallucinated or non-functional solutions,",
+        "locator": "Sec 4.1",
+        "fidelity": "verbatim"
+      }
+    ],
+    "note": "Runtime-error / compiler-signal driven verification filtering of training candidates (failure signals as a collection axis). No three-part record structure."
+  },
+  "QWNCN-C9": {
+    "level": 1,
+    "confidence": "high",
+    "boundary_rule": "",
+    "source_doc": "arXiv:2603.00729 (HTML)",
+    "source_type": "tech_report",
+    "locator": "Sec 3.1 (Data)",
+    "access_date": "2026-10-16",
+    "quotes": [
+      {
+        "text": "the mid-training corpus is composed primarily of natural data, supplemented with a smaller but carefully designed portion of synthetic data",
+        "locator": "Sec 3.1",
+        "fidelity": "near-verbatim (spliced)"
+      },
+      {
+        "text": "our goal is to introduce the minimum amount of synthetic data required for the model to reliably perform common user tasks,",
+        "locator": "Sec 3.1",
+        "fidelity": "verbatim"
+      }
+    ],
+    "note": "Qualitative natural-dominant mixing philosophy ('minimum synthetic'). No per-domain or per-capability stratification, no collapse-prevention rationale -> not domain-conditioned, below level 2."
+  },
+  "GPT6OCT-C5": {
+    "level": 1,
+    "confidence": "high",
+    "boundary_rule": "R1a",
+    "source_doc": "deploymentsafety.openai.com/gpt-6-october/capability-threshold-high",
+    "source_type": "system_card",
+    "locator": "Sec 3.1.1 / Sec 1",
+    "access_date": "2026-10-16",
+    "quotes": [
+      {
+        "text": "an evaluation set with conversations representative of challenging examples from production data.",
+        "locator": "Sec 3.1.1",
+        "fidelity": "verbatim"
+      },
+      {
+        "text": "We also updated the safety training to reflect real-world use",
+        "locator": "Sec 1",
+        "fidelity": "verbatim"
+      }
+    ],
+    "note": "02 Sec 3.2 frozen calibration anchor (R1a: production hard cases enter evaluation only, regardless of篇幅). 'Safety training reflects real-world use' is a mention without mechanism."
+  },
+  "GPT6OCT-C6": {
+    "level": 1,
+    "confidence": "high",
+    "boundary_rule": "R1a",
+    "source_doc": "deploymentsafety.openai.com/gpt-6-october/capability-threshold-high",
+    "source_type": "system_card",
+    "locator": "Sec 6.1 (Performance in Cases Flagged by Users)",
+    "access_date": "2026-10-16",
+    "quotes": [
+      {
+        "text": "de-identified ChatGPT conversations users previously flagged for factual errors",
+        "locator": "Sec 6.1",
+        "fidelity": "near-verbatim (fetch-reported)"
+      }
+    ],
+    "note": "User-flagged failed conversations -> de-identified evaluation sets (R1a: not a training pipeline). 02 calibration anchor C6=1."
+  },
+  "GPT6OCT-C13": {
+    "level": 1,
+    "confidence": "medium",
+    "boundary_rule": "R1a",
+    "source_doc": "alignment.openai.com/misalignment-reports (portal) + openai.com/index/model-misalignment-reporting-framework",
+    "source_type": "announcement",
+    "locator": "portal, accessed 2026-10-16 (announcement page HTTP 403 on 10-16)",
+    "access_date": "2026-10-16",
+    "quotes": [
+      {
+        "text": "disclose examples that show how model misalignment arises",
+        "locator": "portal",
+        "fidelity": "verbatim"
+      },
+      {
+        "text": "where safeguards succeed or fail",
+        "locator": "portal",
+        "fidelity": "verbatim"
+      },
+      {
+        "text": "Reports 19",
+        "locator": "portal counter",
+        "fidelity": "verbatim"
+      }
+    ],
+    "note": "Institutionalized behavior-disclosure channel (employee-submittable misalignment reports + public portal). R1a: behavior disclosure, not training-corpus adjudication. Portal shows 19 reports as of 2026-10-16 (R1 had recorded 6 at 09-16 launch; cite the live count)."
+  },
+  "GPT6OCT-C14": {
+    "level": 1,
+    "confidence": "high",
+    "boundary_rule": "",
+    "source_doc": "deploymentsafety.openai.com/gpt-6-october/capability-threshold-high",
+    "source_type": "system_card",
+    "locator": "Sec 2 (Model Data and Training)",
+    "access_date": "2026-10-16",
+    "quotes": [
+      {
+        "text": "GPT-6 models were trained on diverse datasets and filtered through our data processing pipeline, including to reduce personal information.",
+        "locator": "Sec 2",
+        "fidelity": "verbatim"
+      }
+    ],
+    "note": "PII-reduction filtering = privacy hygiene (near construct); no consent / licensing / forgetting framework in the pipeline disclosure."
+  },
+  "OPUS55-C5": {
+    "level": 1,
+    "confidence": "medium",
+    "boundary_rule": "",
+    "source_doc": "privacy.claude.com/en/articles/10023580",
+    "source_type": "official_blog",
+    "locator": "privacy FAQ, accessed 2026-10-16",
+    "access_date": "2026-10-16",
+    "quotes": [
+      {
+        "text": "We may use your feedback to analyze the effectiveness of our Services, conduct research, study user behavior, and train our AI models",
+        "locator": "FAQ",
+        "fidelity": "verbatim"
+      }
+    ],
+    "note": "Explicit feedback may train models under an opt-in regime; no training-side mechanism (reward model, anti-gaming mix) described."
+  },
+  "OPUS55-C12": {
+    "level": 2,
+    "confidence": "high",
+    "boundary_rule": "",
+    "source_doc": "anthropic.com/constitution",
+    "source_type": "constitution",
+    "locator": "constitution page, accessed 2026-10-16 (fetch truncated; fidelity note)",
+    "access_date": "2026-10-16",
+    "quotes": [
+      {
+        "text": "plays a crucial role in our training process, and its content directly shapes Claude's behavior",
+        "locator": "constitution page",
+        "fidelity": "verbatim (from readable portion)"
+      }
+    ],
+    "note": "Public, versioned constitution actually used in training (single constitution). No social-choice rule / multi-constitution / persona conditioning disclosed -> 2. Alignment-Assemblies influence (R3, secondary source) kept as background, not coded."
+  },
+  "OPUS55-C14": {
+    "level": 2,
+    "confidence": "medium",
+    "boundary_rule": "R2a",
+    "source_doc": "privacy.claude.com/en/articles/10023580",
+    "source_type": "official_blog",
+    "locator": "privacy FAQ, accessed 2026-10-16",
+    "access_date": "2026-10-16",
+    "quotes": [
+      {
+        "text": "You choose to allow us to use your chats and coding sessions to improve Claude",
+        "locator": "FAQ",
+        "fidelity": "verbatim"
+      },
+      {
+        "text": "Your Incognito chats are not used to improve Claude, even if you have enabled Model Improvement in your Privacy Settings.",
+        "locator": "FAQ",
+        "fidelity": "verbatim"
+      },
+      {
+        "text": "We de-link your feedback from your user ID (e.g. email address) before it's used by Anthropic.",
+        "locator": "FAQ",
+        "fidelity": "verbatim"
+      }
+    ],
+    "note": "Opt-in consent mechanism + incognito exclusion + feedback de-linking + 5-year feedback retention, codified in consumer terms. No pipeline-level feasible-set registry or revocation propagation -> 2."
+  },
+  "GROKV9-C5": {
+    "level": 2,
+    "confidence": "medium",
+    "boundary_rule": "R2a",
+    "source_doc": "x.com/elonmusk/status/2058787384364265734 and /2071184354756477041",
+    "source_type": "x_post",
+    "locator": "X posts of 2026-05-25 and 2026-06-28, directly read 2026-10-16 (V2)",
+    "access_date": "2026-10-16",
+    "quotes": [
+      {
+        "text": "A lot of Cursor data was added in supplementary training and there is more to come.",
+        "locator": "X post 2058787384364265734, 2026-05-25",
+        "fidelity": "verbatim"
+      },
+      {
+        "text": "Grok 4.5, based on our 1.5T V9 foundation model, with Cursor data added in supplemental training, is now in private beta",
+        "locator": "X post 2071184354756477041, 2026-06-28",
+        "fidelity": "verbatim"
+      }
+    ],
+    "note": "Real developer-tool workflow data (Cursor IDE usage) entering supplementary training - strongest practice-flow announcement case. Collection/cleaning mechanism undisclosed, no quantification -> R2a cap at 2. Row capped at medium per 02 Sec 2.1."
+  }
+}
