@@ -10,7 +10,7 @@
 
 The stock has a wall; the flow does not — **and the flow requires a stack**: fourteen protocol components across a four-layer data stack (collection → cleaning → absorption, with a governance band), organized into three lines, that turn human practice into a trainable data supply.
 
-This is the engineering companion to the **human-referential fitting theory of AGI** (AGI 人本拟合论, [concept DOI 10.5281/zenodo.23391808](https://doi.org/10.5281/zenodo.23391808)): the theory names the fitting object — practice, not works; this paper specifies the pipeline.
+This is the engineering companion to the **human-referential fitting theory of AGI** (AGI 人本拟合论, [concept DOI 10.5281/zenodo.23391808](https://doi.org/10.5281/zenodo.23391808)). The division of labor: the theory answers *what* is fitted — human practice, not works; this paper answers *how* — the pipeline that turns practice into a trainable data supply.
 
 ## The readiness audit in numbers
 
