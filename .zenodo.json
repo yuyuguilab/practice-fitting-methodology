@@ -1,0 +1,54 @@
+{
+  "title": "Fitting the Practice: A Data Methodology for Frontier Model Training, with a Readiness Audit of 2026 Flagship Pipelines（拟合实践：前沿模型训练的数据方法论——附 2026 旗舰管线就绪度审计）",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "description": "<p>This repository contains the manuscript, audit data, and reproduction materials for a practice-flow data methodology for frontier model training — the engineering companion to the human-referential fitting theory of AGI (AGI 人本拟合论). The methodology specifies fourteen protocol components across a four-layer data stack (collection, cleaning, absorption, governance band), organized into three lines: distribution as typed full-spectrum coverage (population × outcome × expertise × typicality), production as perpetual collection (telemetry, organized failure submission, three-part failure records, pseudo-failure discrimination, domain-conditioned mixing, provenance stratification, three-tier absorption), and governance as pluralistic aggregation with institutionalized verification.</p><p>To ground the protocol empirically, a structured disclosure audit scores eight 2026 flagship pipelines (DeepSeek-V4.1-Flash, MiMo-V2.6, GLM-5, Kimi K3, Qwen3-Coder-Next, GPT-6 Sol/Luna, Claude Opus 5.5, Grok V9-Medium) against the fourteen components on a frozen 0–3 disclosed-instantiation scale, every non-zero cell carrying a verbatim quote and locator. Results: 32/112 (mean 0.286); production 0.393, governance 0.333, distribution 0.062; four components absent from all eight disclosures (typed space, coverage monitor, coverage dashboard, provenance stratification); one level-3 cell (MiMo-V2.6 pseudo-failure discrimination). Includes both the English and Chinese editions (LaTeX + PDF), the full coded matrix (112 cells × 19 fields), quotes with fidelity grades, the frozen codebook fixtures, and figures.</p>",
+  "creators": [
+    {
+      "name": "Yugui Yu",
+      "affiliation": "YYG Strategy Lab"
+    }
+  ],
+  "keywords": [
+    "practice-flow data methodology",
+    "typed experience coverage",
+    "failure-data pipeline",
+    "data readiness audit",
+    "human data injection rate",
+    "model collapse",
+    "training data governance",
+    "AGI",
+    "human-referential fitting theory",
+    "人本拟合论",
+    "实践流数据方法论",
+    "类型化经验覆盖",
+    "就绪度审计"
+  ],
+  "license": "cc-by-4.0",
+  "language": "eng",
+  "access_right": "open",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/yuyuguilab/practice-fitting-methodology",
+      "relation": "isSupplementTo",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "10.5281/zenodo.23391808",
+      "relation": "references",
+      "resource_type": "publication"
+    },
+    {
+      "identifier": "10.5281/zenodo.23355929",
+      "relation": "references",
+      "resource_type": "publication"
+    },
+    {
+      "identifier": "https://yuyuguilab.github.io/",
+      "relation": "references",
+      "resource_type": "publication"
+    }
+  ],
+  "notes": "Code in analysis/ is licensed MIT; manuscript, figures, and coding data are CC BY 4.0. Author contact: they4897@gmail.com. The audit is single-coder under a frozen codebook with limitations disclosed in Section 6; Cohen's kappa from a 20% stratified blind re-coding (23 cells) is scheduled for 2026-10-30 and will be reported in the next version. All coded claims carry verbatim or near-verbatim quotes with locators; the evidence window closed 2026-10-16.",
+  "version": "v1.0.0"
+}

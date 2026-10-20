@@ -1,0 +1,447 @@
+\begin{thebibliography}{68}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[{Epoch AI}(2024)]{ref1}
+{Epoch AI}.
+\newblock Can {AI} scaling continue through 2030?
+\newblock Epoch AI Publication, 2024.
+\newblock URL
+  \url{https://epoch.ai/publications/can-ai-scaling-continue-through-2030}.
+
+\bibitem[Aschenbrenner(2024)]{ref2}
+Leopold Aschenbrenner.
+\newblock Situational awareness: The decade ahead.
+\newblock Self-published, 2024.
+\newblock URL \url{https://situational-awareness.ai/from-gpt-4-to-agi}.
+
+\bibitem[Silver and Sutton(2025)]{ref3}
+David Silver and Richard~S. Sutton.
+\newblock Welcome to the era of experience.
+\newblock In George Konidaris, editor, \emph{Designing an Intelligence}. MIT
+  Press, 2025.
+\newblock URL
+  \url{https://storage.googleapis.com/deepmind-media/Era-of-Experience%20/The%20Era%20of%20Experience%20Paper.pdf}.
+\newblock Preprint, April 2025.
+
+\bibitem[Shumailov et~al.(2024)Shumailov, Shumaylov, Zhao, Papernot, Anderson,
+  and Gal]{ref4}
+Ilia Shumailov, Zakhar Shumaylov, Yiren Zhao, Nicolas Papernot, Rob Anderson,
+  and Yarin Gal.
+\newblock {AI} models collapse when trained on recursively generated data.
+\newblock \emph{Nature}, 631:\penalty0 742--746, 2024.
+\newblock \doi{10.1038/s41586-024-07566-y}.
+
+\bibitem[Yu(2026{\natexlab{a}})]{ref5}
+Yugui Yu.
+\newblock Fitting the practice, not the works: A human-referential theory of
+  {AGI}, 2026{\natexlab{a}}.
+
+\bibitem[Yu(2026{\natexlab{b}})]{ref6}
+Yugui Yu.
+\newblock Success provides direction, failure provides precision: A structured
+  audit of failure data in {LLM} training, 2026{\natexlab{b}}.
+
+\bibitem[Sorensen et~al.(2026)]{ref7}
+Trevor Sorensen et~al.
+\newblock Spectrum tuning: Post-training for distributional coverage and
+  in-context steerability.
+\newblock In \emph{Proceedings of the International Conference on Learning
+  Representations (ICLR)}, 2026.
+
+\bibitem[{Datadog}(2026)]{ref8}
+{Datadog}.
+\newblock Teaching a 9{B} model to investigate production alerts.
+\newblock Datadog blog, 2026.
+\newblock URL
+  \url{https://www.datadoghq.com/blog/ai/investigate-production-alerts}.
+\newblock September 23, 2026; accessed 2026-10-16.
+
+\bibitem[Longpre et~al.(2024{\natexlab{a}})]{ref9}
+Shayne Longpre et~al.
+\newblock Data authenticity, consent, and provenance for {AI} are all broken.
+\newblock MIT Generative AI Impact Initiative, 2024{\natexlab{a}}.
+\newblock URL \url{https://mit-genai.pubpub.org/pub/uk7op8zs}.
+
+\bibitem[Longpre et~al.(2024{\natexlab{b}})Longpre, Mahari, Lee, Lund,
+  et~al.]{ref10}
+Shayne Longpre, Robert Mahari, Ariel Lee, Campbell Lund, et~al.
+\newblock Consent in crisis: The rapid decline of the {AI} data commons.
+\newblock In \emph{NeurIPS Datasets and Benchmarks Track}, 2024{\natexlab{b}}.
+
+\bibitem[d'Aliberti et~al.(2026)d'Aliberti, Abdulhai, Druchyna, et~al.]{ref11}
+Liv~G. d'Aliberti, Marwa Abdulhai, Sofiia Druchyna, et~al.
+\newblock Measuring and mitigating solution mode collapse in {RLVR}, 2026.
+
+\bibitem[Liu et~al.(2026)]{ref12}
+Sitong Liu et~al.
+\newblock The path to recursive self-improving agents: Foundation, framework,
+  and future directions.
+\newblock Preprint 202608.0051, Preprints.org, 2026.
+\newblock Not peer reviewed.
+
+\bibitem[Yang et~al.(2025)Yang, Nan, et~al.]{ref13}
+Yuming Yang, Yang Nan, et~al.
+\newblock Measuring data diversity for instruction tuning: A systematic
+  analysis and a reliable metric.
+\newblock In \emph{Proceedings of the Annual Meeting of the Association for
+  Computational Linguistics (ACL)}, 2025.
+
+\bibitem[Zhou et~al.(2025)]{ref14}
+Kevin Zhou et~al.
+\newblock Should {LLMs} be {WEIRD}? exploring representativeness bias and
+  discrimination in {LLMs}, 2025.
+
+\bibitem[Phutane et~al.(2025)]{ref15}
+Mitisha Phutane et~al.
+\newblock {ABLEIST}: Intersectional disability bias in {LLM}-generated hiring
+  scenarios, 2025.
+
+\bibitem[Baek(2026)]{ref16}
+Dongryeol~D. Baek.
+\newblock {D-FUSEr}: Diverse failure, unified success via error-distribution
+  shaping in {LLM} reasoning.
+\newblock In \emph{Proceedings of the International Conference on Machine
+  Learning (ICML)}, volume 306 of \emph{PMLR}, 2026.
+
+\bibitem[{European Commission, AI Office}(2025)]{ref17}
+{European Commission, AI Office}.
+\newblock Template for general-purpose {AI} model providers to summarise their
+  training content.
+\newblock Official FAQ, 2025.
+\newblock URL
+  \url{https://digital-strategy.ec.europa.eu/en/faqs/template-general-purpose-ai-model-providers-summarise-their-training-content}.
+\newblock Updated 2026; accessed 2026-10-16.
+
+\bibitem[Han et~al.(2025)]{ref18}
+Eric Han et~al.
+\newblock Reinforcement learning from user feedback, 2025.
+
+\bibitem[{OpenAI}(2025)]{ref19}
+{OpenAI}.
+\newblock Sycophancy in {GPT-4o}: What happened and what we're doing about it.
+\newblock OpenAI, 2025.
+\newblock URL \url{https://openai.com/index/sycophancy-in-gpt-4o}.
+
+\bibitem[Xu et~al.(2026)]{ref20}
+Anyi Xu et~al.
+\newblock {DeepSeek-V4.1-Flash}: Pushing the limits of {KV} cache compression.
+\newblock Technical report, DeepSeek, 2026.
+
+\bibitem[Musk(2026)]{ref21}
+Elon Musk.
+\newblock Posts on {X} regarding {Grok} {V9-Medium} and {Grok} 4.5 training
+  data.
+\newblock X, 2026.
+\newblock URL \url{https://x.com/elonmusk/status/2058787384364265734}.
+\newblock Second post: https://x.com/elonmusk/status/2071184354756477041;
+  accessed 2026-10-16.
+
+\bibitem[{OpenAI}(2026{\natexlab{a}})]{ref22}
+{OpenAI}.
+\newblock {GPT-6} sol and {GPT-6} luna: October 2026 update.
+\newblock System card, OpenAI, 2026{\natexlab{a}}.
+\newblock URL \url{https://deploymentsafety.openai.com/gpt-6-october}.
+\newblock October 7, 2026; accessed 2026-10-16.
+
+\bibitem[{Google}(2025)]{ref23}
+{Google}.
+\newblock Announcing {Google}'s new {AI} vulnerability reward program.
+\newblock Bug Hunters blog, 2025.
+\newblock URL
+  \url{https://bughunters.google.com/blog/announcing-googles-new-ai-vulnerability-reward-program}.
+
+\bibitem[An et~al.(2023)]{ref24}
+Shuang An et~al.
+\newblock Learning from mistakes makes {LLM} better reasoner, 2023.
+
+\bibitem[Hao et~al.(2026)]{ref25}
+Hao et~al.
+\newblock Why multi-step tool-use reinforcement learning collapses and how
+  supervisory signals fix it, 2026.
+
+\bibitem[Qiao et~al.(2026)]{ref26}
+Zheng Qiao et~al.
+\newblock {MiMo-V2.6}: Scaling reinforcement learning towards self-improvement.
+\newblock Technical report, Xiaomi, 2026.
+
+\bibitem[Zeng et~al.(2026)]{ref27}
+Aohan Zeng et~al.
+\newblock {GLM-5}: from vibe coding to agentic engineering.
+\newblock Technical report, Z.ai, 2026.
+
+\bibitem[Cao et~al.(2026)]{ref28}
+Rui Cao et~al.
+\newblock {Qwen3-Coder-Next} technical report.
+\newblock Technical report, Alibaba (Qwen Team), 2026.
+
+\bibitem[{Vals.ai}(2026)]{ref29}
+{Vals.ai}.
+\newblock Two-thirds of {MiMo} v2.6's coding tasks leak the answer.
+\newblock Blog, 2026.
+\newblock URL \url{https://www.vals.ai/blogs/mimo-reward-hacking}.
+\newblock October 7, 2026; accessed 2026-10-16.
+
+\bibitem[{SWE-bench maintainers}(2025)]{ref30}
+{SWE-bench maintainers}.
+\newblock Issue \#465: repository future-state leakage.
+\newblock GitHub, 2025.
+\newblock URL \url{https://github.com/SWE-bench/SWE-bench/issues/465}.
+\newblock Accessed 2026-10-16.
+
+\bibitem[{K Team (Moonshot AI)}(2026)]{ref31}
+{K Team (Moonshot AI)}.
+\newblock Kimi {K3}: Open frontier intelligence.
+\newblock Technical report, Moonshot AI, 2026.
+
+\bibitem[Kazdan et~al.(2025)Kazdan, Schaeffer, et~al.]{ref32}
+Joshua Kazdan, Rylan Schaeffer, et~al.
+\newblock Collapse or thrive? perils and promises of synthetic data in a
+  self-generating world.
+\newblock In \emph{Proceedings of the International Conference on Machine
+  Learning (ICML)}, 2025.
+
+\bibitem[Barzilai and Shamir(2025)]{ref33}
+Daniel Barzilai and Ohad Shamir.
+\newblock When models don't collapse: On the consistency of iterative {MLE}.
+\newblock In \emph{Advances in Neural Information Processing Systems
+  (NeurIPS)}, 2025.
+
+\bibitem[Luo et~al.(2026)]{ref34}
+Xiao Luo et~al.
+\newblock Learning from synthetic data without model collapse, 2026.
+
+\bibitem[{TechXplore}(2026{\natexlab{a}})]{ref35}
+{TechXplore}.
+\newblock Real-world {AI} collapse analysis: single real data point may avert
+  collapse in simple models.
+\newblock News report, 2026{\natexlab{a}}.
+\newblock URL
+  \url{https://techxplore.com/news/2026-05-real-world-ai-collapse-analysis.html}.
+\newblock May 2026; accessed 2026-10-16.
+
+\bibitem[Qin et~al.(2025)Qin, Dong, et~al.]{ref36}
+Zeyu Qin, Qingxiu Dong, et~al.
+\newblock Scaling laws of synthetic data for language models, 2025.
+
+\bibitem[Zhao et~al.(2025)]{ref37}
+Andrew Zhao et~al.
+\newblock Absolute zero: Reinforced self-play reasoning with zero data.
+\newblock In \emph{Advances in Neural Information Processing Systems
+  (NeurIPS)}, 2025.
+
+\bibitem[Tang et~al.(2026)]{ref38}
+Xinyu Tang et~al.
+\newblock Ring-zero: Scaling zero {RL} to a trillion parameters for emergent
+  reasoning, 2026.
+
+\bibitem[Kang et~al.(2025)]{ref39}
+Feiyang Kang et~al.
+\newblock Demystifying synthetic data in {LLM} pre-training: A systematic study
+  of scaling laws, benefits, and pitfalls.
+\newblock In \emph{Proceedings of the Conference on Empirical Methods in
+  Natural Language Processing (EMNLP), main}, 2025.
+
+\bibitem[Shabgahi et~al.(2026)Shabgahi, Aghazadeh, Mirhoseini, and
+  Koushanfar]{ref40}
+Soheil~Zibakhsh Shabgahi, Pedram Aghazadeh, Azalia Mirhoseini, and Farinaz
+  Koushanfar.
+\newblock {ForTIFAI}: Fending off recursive training induced failure for {AI}
+  model collapse.
+\newblock \emph{npj Artificial Intelligence}, 2:\penalty0 70, 2026.
+\newblock \doi{10.1038/s44387-026-00127-w}.
+
+\bibitem[{Tongyi DeepResearch Team (Alibaba)}(2025)]{ref41}
+{Tongyi DeepResearch Team (Alibaba)}.
+\newblock Tongyi {DeepResearch} technical report.
+\newblock Technical report, Alibaba, 2025.
+
+\bibitem[{OpenAI}(2026{\natexlab{b}})]{ref42}
+{OpenAI}.
+\newblock Our approach to {EU} text provenance rules.
+\newblock OpenAI, 2026{\natexlab{b}}.
+\newblock URL \url{https://openai.com/index/eu-text-provenance}.
+\newblock October 5, 2026.
+
+\bibitem[{VCU College of Engineering}(2026)]{ref43}
+{VCU College of Engineering}.
+\newblock Watermarking {AI}-generated text for transparency, provenance and
+  safety.
+\newblock Engineering blog, 2026.
+\newblock URL
+  \url{https://blogs.vcu.edu/engineering/2026/09/17/watermarking-ai-generated-text-for-transparency-provenance-and-safety}.
+\newblock September 17, 2026; accessed 2026-10-16.
+
+\bibitem[{TechXplore}(2026{\natexlab{b}})]{ref44}
+{TechXplore}.
+\newblock {AI} image watermarks survive model training.
+\newblock News report, 2026{\natexlab{b}}.
+\newblock URL
+  \url{https://techxplore.com/news/2026-10-ai-image-watermarks-survive-durability.html}.
+\newblock October 2026; accessed 2026-10-16.
+
+\bibitem[Parmar et~al.(2024)Parmar, Satheesh, Patwary, Shoeybi, and
+  Catanzaro]{ref45}
+Jupinder Parmar, Sanjev Satheesh, Mostofa Patwary, Mohammad Shoeybi, and Bryan
+  Catanzaro.
+\newblock Reuse, don't retrain: A recipe for continued pretraining of large
+  language models, 2024.
+
+\bibitem[Ibrahim et~al.(2024)]{ref46}
+Adam Ibrahim et~al.
+\newblock Simple and scalable strategies to continually pre-train large
+  language models, 2024.
+
+\bibitem[Öncel et~al.(2026)Öncel, Ali, et~al.]{ref47}
+Fırat Öncel, Salman~Hussain Ali, et~al.
+\newblock Time-incremental continued pretraining of {LLMs}: Knowledge updates
+  without catastrophic forgetting, 2026.
+
+\bibitem[Arnal et~al.(2026)]{ref48}
+Corentin Arnal et~al.
+\newblock Efficient {RL} training for {LLMs} with experience replay, 2026.
+
+\bibitem[Fu et~al.(2025)]{ref49}
+Wei Fu et~al.
+\newblock {AReaL}: A large-scale asynchronous reinforcement learning system for
+  language reasoning.
+\newblock In \emph{Advances in Neural Information Processing Systems
+  (NeurIPS)}, 2025.
+
+\bibitem[{Mem0}(2026)]{ref50}
+{Mem0}.
+\newblock State of {AI} agent memory 2026.
+\newblock Industry report, Mem0, 2026.
+\newblock URL \url{https://mem0.ai/blog/state-of-ai-agent-memory-2026}.
+\newblock Accessed 2026-10-16.
+
+\bibitem[{Andreessen Horowitz}(2026)]{ref51}
+{Andreessen Horowitz}.
+\newblock Why we need continual learning.
+\newblock a16z, 2026.
+\newblock URL \url{https://a16z.com/why-we-need-continual-learning}.
+\newblock April 2026; accessed 2026-10-16.
+
+\bibitem[Park et~al.(2024)Park, Rohrbach, and Choi]{ref52}
+Chansoo Park, Percy Rohrbach, and Yejin Choi.
+\newblock {RLHF} from heterogeneous feedback via personalization, 2024.
+
+\bibitem[Huang et~al.(2024)]{ref53}
+Shauna Huang et~al.
+\newblock Collective constitutional {AI}: Aligning a language model with public
+  input.
+\newblock In \emph{Proceedings of the ACM Conference on Fairness,
+  Accountability, and Transparency (FAccT)}, 2024.
+\newblock \doi{10.1145/3630106.3658979}.
+
+\bibitem[{Anthropic}(2026{\natexlab{a}})]{ref54}
+{Anthropic}.
+\newblock Claude's constitution.
+\newblock Anthropic, 2026{\natexlab{a}}.
+\newblock URL \url{https://www.anthropic.com/constitution}.
+\newblock Accessed 2026-10-16.
+
+\bibitem[{OpenAI}(2026{\natexlab{c}})]{ref55}
+{OpenAI}.
+\newblock Customizing your {ChatGPT} personality.
+\newblock Help Center, 2026{\natexlab{c}}.
+\newblock URL \url{https://help.openai.com/en/articles/11899719}.
+\newblock Accessed 2026-10-16.
+
+\bibitem[Qi et~al.(2026)]{ref56}
+Tao Qi et~al.
+\newblock Auditing unauthorized training data from {AI} generated content using
+  information isotopes.
+\newblock \emph{Nature Communications}, 17:\penalty0 3007, 2026.
+\newblock \doi{10.1038/s41467-026-68862-x}.
+
+\bibitem[{OpenAI}(2026{\natexlab{d}})]{ref57}
+{OpenAI}.
+\newblock Our framework for reporting model misalignment.
+\newblock OpenAI, 2026{\natexlab{d}}.
+\newblock URL
+  \url{https://openai.com/index/model-misalignment-reporting-framework}.
+\newblock September 16, 2026; portal at
+  alignment.openai.com/misalignment-reports accessed 2026-10-16.
+
+\bibitem[{Reuters}(2026)]{ref58}
+{Reuters}.
+\newblock Openai shelves new {AI} model after internal safety tests.
+\newblock Reuters, 2026.
+\newblock URL
+  \url{https://www.reuters.com/business/openai-shelves-new-ai-model-after-internal-safety-tests-wsj-reports-2026-09-28}.
+\newblock September 28, 2026.
+
+\bibitem[Chowdhury(2026)]{ref59}
+Rajarshi Chowdhury.
+\newblock terms.txt: A consent and compensation protocol for agentic web
+  access, 2026.
+
+\bibitem[{European Union}(2016)]{ref60}
+{European Union}.
+\newblock Regulation ({EU}) 2016/679 (general data protection regulation).
+\newblock Official Journal of the European Union, L 119, 2016.
+
+\bibitem[{European Data Protection Board}(2025)]{ref61}
+{European Data Protection Board}.
+\newblock {AI}: Effective implementation of data subjects' rights.
+\newblock Technical report, European Data Protection Board, 2025.
+\newblock URL
+  \url{https://www.edpb.europa.eu/system/files/2025-01/d2-ai-effective-implementation-of-data-subjects-rights_en.pdf}.
+\newblock Accessed 2026-10-16.
+
+\bibitem[{Anthropic}(2026{\natexlab{b}})]{ref62}
+{Anthropic}.
+\newblock Is my data used for model training?
+\newblock Privacy FAQ, 2026{\natexlab{b}}.
+\newblock URL
+  \url{https://privacy.claude.com/en/articles/10023580-is-my-data-used-for-model-training}.
+\newblock Accessed 2026-10-16.
+
+\bibitem[{Reuters}(2024)]{ref63}
+{Reuters}.
+\newblock Reddit has {AI} content licensing deal with google, sources say.
+\newblock Reuters, 2024.
+\newblock URL
+  \url{https://www.reuters.com/technology/reddit-ai-content-licensing-deal-with-google-sources-say-2024-02-22}.
+\newblock February 22, 2024.
+
+\bibitem[{Latam-GPT Initiative}(2026)]{ref64}
+{Latam-GPT Initiative}.
+\newblock Latam-gpt: a regional public-good language model for {Latin America}.
+\newblock Official site, 2026.
+\newblock URL \url{https://www.latamgpt.org/en}.
+\newblock Accessed 2026-10-16.
+
+\bibitem[{Qwen Team}(2026)]{ref65}
+{Qwen Team}.
+\newblock Qwen3.8-max.
+\newblock Official blog, 2026.
+\newblock URL \url{https://qwen.ai/blog?id=qwen3.8}.
+\newblock August 3, 2026; accessed 2026-10-16.
+
+\bibitem[Paniego(2026)]{ref66}
+Sergio Paniego.
+\newblock How frontier models train on outcomes in 2026.
+\newblock Hugging Face blog, 2026.
+\newblock URL \url{https://huggingface.co/blog/sergiopaniego/agentic-rl-2026}.
+\newblock August 2026; accessed 2026-10-16.
+
+\bibitem[Byrnes(2025)]{ref67}
+Steven Byrnes.
+\newblock 'the era of experience' has an unsolved technical alignment problem.
+\newblock Alignment Forum / LessWrong, 2025.
+\newblock URL
+  \url{https://www.alignmentforum.org/posts/TCGgiJAinGgcMEByt/the-era-of-experience-has-an-unsolved-technical-alignment}.
+\newblock April 24, 2025.
+
+\bibitem[Vallor(2024)]{ref68}
+Shannon Vallor.
+\newblock \emph{The AI Mirror: How to Reclaim Our Humanity in an Age of Machine
+  Thinking}.
+\newblock Oxford University Press, 2024.
+
+\end{thebibliography}
