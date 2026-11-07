@@ -1,0 +1,208 @@
+{
+ "protocol": "pre-registered 20% stratified blind re-coding (23 cells, fixed seed) of the paper-3 disclosure-instantiation audit",
+ "execution_date": "2026-11-06",
+ "coder1": "statistical-analyst (single coder, paper-3 pipeline)",
+ "coder2": "fresh blind AI agent (no prior involvement; saw only the frozen codebook and per-cell evidence packets with original levels, confidences and coding notes stripped)",
+ "codebook_version": "frozen (scale 0-3, R1a/R2a/R3a boundary rules, five calibration anchors)",
+ "sample": [
+  "DS41-C11",
+  "DS41-C13",
+  "GLM5-C14",
+  "GLM5-C9",
+  "GPT6OCT-C1",
+  "GPT6OCT-C5",
+  "GPT6OCT-C8",
+  "GPT6OCT-C9",
+  "GROKV9-C2",
+  "KIMIK3-C1",
+  "KIMIK3-C10",
+  "KIMIK3-C2",
+  "KIMIK3-C5",
+  "MIMO26-C2",
+  "MIMO26-C4",
+  "MIMO26-C5",
+  "MIMO26-C7",
+  "OPUS55-C11",
+  "OPUS55-C14",
+  "OPUS55-C4",
+  "OPUS55-C8",
+  "QWNCN-C12",
+  "QWNCN-C14"
+ ],
+ "agreement_raw": 0.913,
+ "cohen_kappa_unweighted": 0.716,
+ "cohen_kappa_quadratic_weighted": 0.882,
+ "pre_registered_threshold": 0.7,
+ "threshold_met": true,
+ "disagreements": [
+  {
+   "cell_id": "DS41-C11",
+   "coder1": 1,
+   "coder2": 2,
+   "coder2_justification": "失败回放与定向RL机制可指认，但无三层分工节拍、陈旧度指标与任何量化，R2a封顶2。"
+  },
+  {
+   "cell_id": "MIMO26-C7",
+   "coder1": 1,
+   "coder2": 2,
+   "coder2_justification": "错误保留与纠正明确打包进同一条样本，机制可指认；缺冻结分类法、根因归因与回放环境且无量化。"
+  }
+ ],
+ "level_distribution_coder1": {
+  "0": 19,
+  "1": 3,
+  "2": 1,
+  "3": 0
+ },
+ "level_distribution_coder2": {
+  "0": 19,
+  "1": 1,
+  "2": 3,
+  "3": 0
+ },
+ "revision_triggered": false,
+ "notes": "Both disagreements are one-step (1 vs 2) judgments on mechanism-without-quantification cells (C11 replay-into-RL, C7 two-part reflection data); neither touches the level-3 cell, the four all-zero components, line means, or A/B splits. Calibration anchor overlap: the frozen GPT-6 x C5 anchor is itself a sample cell (same position as the original calibration rounds). Coder-2 observations on codebook ambiguity are retained below.",
+ "coder2_observations": "手册量表与锚点总体可操作，五个锚点对1级与2级的分档帮助很大（尤其GPT-6评测侧=1、DeepSeek机制=2两锚）。主要困难在于：量表把1级仅定义为R1a评测用途或R3a近似构念，对“引文部分覆盖操作性定义但既非评测用途、构念也不算近似”的格子（如MIMO26-C7缺根因与回放环境、OPUS55-C14缺可行集标签）没有明确归口，只能靠GLM-5锚点类推到1或按“机制可指认”判2，是本次最易产生评分者分歧的两格。此外R3a的“近似构念”举例集中于覆盖类要素，用于C14同意条款时边界较模糊；三条边界规则之间未见直接冲突，R2a的“无量化封顶2”判定起来最干脆。",
+ "coder2_levels": {
+  "DS41-C11": 2,
+  "DS41-C13": 0,
+  "MIMO26-C2": 0,
+  "MIMO26-C4": 0,
+  "MIMO26-C5": 0,
+  "MIMO26-C7": 2,
+  "GLM5-C9": 0,
+  "GLM5-C14": 0,
+  "KIMIK3-C1": 0,
+  "KIMIK3-C2": 0,
+  "KIMIK3-C5": 0,
+  "KIMIK3-C10": 0,
+  "QWNCN-C12": 0,
+  "QWNCN-C14": 0,
+  "GPT6OCT-C1": 0,
+  "GPT6OCT-C5": 1,
+  "GPT6OCT-C8": 0,
+  "GPT6OCT-C9": 0,
+  "OPUS55-C4": 0,
+  "OPUS55-C8": 0,
+  "OPUS55-C11": 0,
+  "OPUS55-C14": 2,
+  "GROKV9-C2": 0
+ },
+ "coder2_decisions": [
+  {
+   "cell_id": "DS41-C11",
+   "level": 2,
+   "justification": "失败回放与定向RL机制可指认，但无三层分工节拍、陈旧度指标与任何量化，R2a封顶2。"
+  },
+  {
+   "cell_id": "DS41-C13",
+   "level": 0,
+   "justification": "词汇检索加全文阅读均未发现指向验证器制度化的陈述，检索痕迹逻辑上支持未发现。"
+  },
+  {
+   "cell_id": "MIMO26-C2",
+   "level": 0,
+   "justification": "词汇检索加全文阅读均未发现覆盖监测器（抽样与单元格频率估计）陈述，痕迹支持未发现。"
+  },
+  {
+   "cell_id": "MIMO26-C4",
+   "level": 0,
+   "justification": "未发现覆盖统计进入固定报告格式的任何陈述，检索痕迹逻辑上支持未发现。"
+  },
+  {
+   "cell_id": "MIMO26-C5",
+   "level": 0,
+   "justification": "未发现部署侧信号经反博弈合成回流训练的陈述，检索痕迹逻辑上支持未发现。"
+  },
+  {
+   "cell_id": "MIMO26-C7",
+   "level": 2,
+   "justification": "错误保留与纠正明确打包进同一条样本，机制可指认；缺冻结分类法、根因归因与回放环境且无量化。"
+  },
+  {
+   "cell_id": "GLM5-C9",
+   "level": 0,
+   "justification": "未发现按域设定合成与真实之比并附坍塌防护理据的混合规范，检索痕迹支持未发现。"
+  },
+  {
+   "cell_id": "GLM5-C14",
+   "level": 0,
+   "justification": "未发现同意感知获取、可机读条款或可行集标签相关陈述，检索痕迹支持未发现。"
+  },
+  {
+   "cell_id": "KIMIK3-C1",
+   "level": 0,
+   "justification": "未发现四维类型模式及其冻结取值集合的陈述，检索痕迹逻辑上支持未发现。"
+  },
+  {
+   "cell_id": "KIMIK3-C2",
+   "level": 0,
+   "justification": "未发现覆盖抽样的可复现程序或单元格覆盖告警陈述，检索痕迹支持未发现。"
+  },
+  {
+   "cell_id": "KIMIK3-C5",
+   "level": 0,
+   "justification": "未发现生产遥测回流进训练的陈述，检索痕迹逻辑上支持未发现。"
+  },
+  {
+   "cell_id": "KIMIK3-C10",
+   "level": 0,
+   "justification": "未发现来源字段分离或水印检测及分层进入混合的陈述，检索痕迹支持未发现。"
+  },
+  {
+   "cell_id": "QWNCN-C12",
+   "level": 0,
+   "justification": "未发现社会选择规则、多宪法或人物设定条件化等聚合机制陈述，痕迹支持未发现。"
+  },
+  {
+   "cell_id": "QWNCN-C14",
+   "level": 0,
+   "justification": "未发现同意感知获取、许可框架或撤回机制相关陈述，检索痕迹支持未发现。"
+  },
+  {
+   "cell_id": "GPT6OCT-C1",
+   "level": 0,
+   "justification": "系统卡片中未发现类型空间定义相关陈述，检索痕迹逻辑上支持未发现。"
+  },
+  {
+   "cell_id": "GPT6OCT-C5",
+   "level": 1,
+   "justification": "生产困难案例仅用于构造评测集而非回流训练，评测侧用途按R1a至多计1。"
+  },
+  {
+   "cell_id": "GPT6OCT-C8",
+   "level": 0,
+   "justification": "系统卡片中未发现伪失败甄别或环境净化协议陈述，检索痕迹支持未发现。"
+  },
+  {
+   "cell_id": "GPT6OCT-C9",
+   "level": 0,
+   "justification": "系统卡片中未发现域条件化混合规范陈述，检索痕迹逻辑上支持未发现。"
+  },
+  {
+   "cell_id": "OPUS55-C4",
+   "level": 0,
+   "justification": "未发现覆盖统计进入固定报告格式的陈述，检索痕迹逻辑上支持未发现。"
+  },
+  {
+   "cell_id": "OPUS55-C8",
+   "level": 0,
+   "justification": "所引AIR文档无法定位，二手证据又属评测侧且非官方，检索痕迹支持未发现。"
+  },
+  {
+   "cell_id": "OPUS55-C11",
+   "level": 0,
+   "justification": "未发现三层吸收分工、陈旧度指标或层间仲裁规则陈述，检索痕迹支持未发现。"
+  },
+  {
+   "cell_id": "OPUS55-C14",
+   "level": 2,
+   "justification": "选择同意机制明确挂钩训练数据使用，但无可机读条款解析、可行集标签与撤销传播，R2a封顶。"
+  },
+  {
+   "cell_id": "GROKV9-C2",
+   "level": 0,
+   "justification": "两则公告帖中均未发现覆盖监测器相关陈述，检索痕迹逻辑上支持未发现。"
+  }
+ ]
+}
