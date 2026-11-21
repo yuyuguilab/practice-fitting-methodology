@@ -1,5 +1,7 @@
 **English** | [简体中文](README.zh-CN.md)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23488465.svg)](https://doi.org/10.5281/zenodo.23488465)
+
 # Fitting the Practice: A Data Methodology for Frontier Model Training
 
 *Yugui Yu · YYG Strategy Lab · they4897@gmail.com*
@@ -45,6 +47,10 @@ Each component carries an operational definition, a protocol, failure modes, and
 ## Reproducing the audit
 
 The coding is single-coder under a frozen codebook, with limitations stated in §6 of the paper; the pre-registered 20% stratified blind re-coding (23 cells) was executed on 2026-11-06 by a fresh blind coder: **raw agreement 0.913 (21/23), Cohen's κ = 0.716 (pre-registered threshold 0.70, met), quadratic-weighted κ = 0.882**; two one-step (1↔2) disagreements are logged. All coded claims trace to verbatim quotes in `matrix_cells.csv`.
+
+## Cite
+
+Yugui Yu. *Fitting the Practice: A Data Methodology for Frontier Model Training*. Zenodo. doi:[10.5281/zenodo.23488465](https://doi.org/10.5281/zenodo.23488465) (concept DOI; resolves to the latest version).
 
 ## Related work in this program
 

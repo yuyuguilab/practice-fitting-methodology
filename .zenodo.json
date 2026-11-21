@@ -6,7 +6,8 @@
   "creators": [
     {
       "name": "Yugui Yu",
-      "affiliation": "YYG Strategy Lab"
+      "affiliation": "YYG Strategy Lab",
+      "orcid": "https://orcid.org/0009-0001-7217-4179"
     }
   ],
   "keywords": [
@@ -50,5 +51,5 @@
     }
   ],
   "notes": "Code in analysis/ is licensed MIT; manuscript, figures, and coding data are CC BY 4.0. Author contact: they4897@gmail.com. The audit is single-coder under a frozen codebook with limitations disclosed in Section 6; Cohen's kappa from a 20% stratified blind re-coding (23 cells) is scheduled for 2026-10-30 and will be reported in the next version. All coded claims carry verbatim or near-verbatim quotes with locators; the evidence window closed 2026-10-16.",
-  "version": "v1.0.0"
+  "version": "v1.1.1"
 }
